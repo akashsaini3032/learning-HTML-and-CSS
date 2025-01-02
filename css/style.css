@@ -1,0 +1,37 @@
+h1{background-color: rgb(9, 191, 232);color: rgb(205, 166, 38);}
+
+.head{
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-style: dashed;
+    text-decoration-color: rgb(205, 59, 78);
+    font-size: 60px;
+    text-shadow: 2px 3px 8px aquamarine;
+}
+
+.head1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(93, 100, 135);
+    font-size: 60px;
+    text-shadow: -2px -3px -8px aquamarine;
+    color: crimson;
+    letter-spacing: 19px;
+}
+.head2{
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(176, 7, 214);
+    font-size: 60px;
+}
+
+/*
+double dotted wavy dashed solid
+*/
+
+#para{
+    font-style: italic;
+    word-spacing: 20px;       
+}
