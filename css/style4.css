@@ -1,0 +1,48 @@
+.wrapper{
+    background-color: aqua;
+   /* padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px; */
+
+    padding: 40px;
+    border: 13px double green;
+}
+
+.wrapper h1 {
+    color: brown;
+}
+
+.wrapper button{
+    color: tomato;
+    padding: 20px 80px;
+    /* first top bottom second left right */
+
+}
+
+.bk{
+    margin-top: 30px;
+    background-color: brown;
+    border-left: 13px double green;
+    
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin-top: 30px;
+    /*border-radius: 30px;*/
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 50px;
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 520px;
+    margin-bottom: 40px;
+    box-shadow: 6px 4px 8px 3px yellow;
+}
