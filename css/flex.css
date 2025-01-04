@@ -1,0 +1,20 @@
+.akash{
+    background-color: cornflowerblue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+    
+}
+
+.akash div h2{
+    font-size: 50px;
+}
+
+.akash div p{
+    margin-top: -23px;
+}
+
+
+ /* space-between,start,center,end,space-evenly,space-arround,space-between (yah sab value hai )lekin tabhi use hoga jab justifiy content hoga */
