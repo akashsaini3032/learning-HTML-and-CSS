@@ -3,17 +3,23 @@
 }
 
 
-.saini{
+.akash1{
     font-family: "DM Serif Text", serif;
 
 
 }
-.ak{
+.akash2{
     font-family: "Playwrite AU SA", serif;
 }
 
 
 .hero{
-    background-image: url(burger.png);
+    background-image:url(Screenshot_20230624-133410.png) ;
+    background-size: cover;
+    background-repeat:no-repeat ;
+
+    /* background-image:url(Screenshot_20230624-133410.png) ; yah tab use karte hai jab content ke piche background me image use karte hai*/
+    height: 500px;
+    width: 500px;
     
 }
