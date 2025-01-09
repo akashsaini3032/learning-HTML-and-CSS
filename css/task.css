@@ -1,6 +1,8 @@
-.akash{
+.header{
     background-image: url(abstract-digital-grid-black-background.jpg);
     background-size: cover;
+    height: 100px;
+    /* background-repeat: no-repeat; */
 }
 
 
@@ -13,7 +15,7 @@
 
 .navbar ul{
     display: flex;
-    gap: 30px;
+    gap: 40px;
     list-style: none;
 }
 
@@ -28,7 +30,7 @@
 
 }
 
-.akash1 div button{
+.hero div button{
     padding: 12px 14px;
     border-radius: 10px;
     border: black;
