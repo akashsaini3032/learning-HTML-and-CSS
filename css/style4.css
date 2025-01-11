@@ -21,7 +21,7 @@
 }
 
 .bk{
-    margin-top: 30px;
+    margin-top: 50px;
     background-color: brown;
     border-left: 13px double green;
     
@@ -31,7 +31,7 @@
     height: 200px;
     width: 200px;
     background-color: blue;
-    margin-top: 30px;
+    margin-top: 50px;
     /*border-radius: 30px;*/
     border-top-left-radius: 30px;
     border-bottom-right-radius: 50px;

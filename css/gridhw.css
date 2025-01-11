@@ -2,10 +2,30 @@
     background-color: rgb(46, 216, 106);
     display: grid;
     height: 100vh;
-    grid-template-columns: 250px 700px auto;
-    grid-template-rows: 300px 500px 200px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 250px 200px 200px;
 }
-.ch1,.ch2,.ch3,.ch4,.ch5,.ch6,.ch7,.ch8,.ch9{
+.ch1,.ch2,.ch3,.ch4,.ch5,.ch6{
     background-color: aquamarine;
     border: 2px solid black;
+    color: white;
+}
+
+.ch1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.ch2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.ch5{
+grid-column-start: 2;
+grid-column-end: 4;
+}
+
+.ch6{
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
