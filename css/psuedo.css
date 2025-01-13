@@ -1,0 +1,17 @@
+/* psuedo element denoted by :: 
+  psuedo class denoted by   :   */
+
+  #para::first-line{
+
+    color: blue;
+    font-family: 30px;
+    text-decoration: underline;
+  }
+
+  /* first-line
+  first-letter*/
+
+  input::placeholder{
+    color: red;
+  }
+  

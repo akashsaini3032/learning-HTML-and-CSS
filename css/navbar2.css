@@ -20,3 +20,19 @@
 h2{
     text-align: center;
 }
+
+
+.icon{
+    display: flex;
+    justify-content: end;
+}
+
+.arrowicon{
+    font-size: 70px;
+    position: fixed;
+    bottom: 30px;
+    
+}
+
+/* absolute parent se related nahi hota body se related hota hai absolute me body ke according padding mARGIN SET HOTA HAI
+ relative apne parent tag se related hota hai relative me parent tag ke according padding margin set hota hai */

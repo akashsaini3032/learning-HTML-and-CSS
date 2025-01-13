@@ -99,8 +99,60 @@
 
 } 
 
-/* latest section ka border banao*/
+.latest div{
+    border: 2px solid gray;
+    padding: 30px;
+}
 
+
+
+.popular{
+    
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+    
+
+} 
+
+.popular div{
+    border: 2px solid gray;
+    padding: 40px;
+}
+
+
+/* css of Page webpage*/
+
+
+.pbanner{
+    
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+    
+
+} 
+
+.pbanner div{
+    border: 2px solid gray;
+    padding: 70px;
+
+    width: 200px;
+
+    
+}
 
 
 
