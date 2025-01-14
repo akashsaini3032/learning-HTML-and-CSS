@@ -1,0 +1,32 @@
+.head::before{
+    content:"Welcome";
+    color: red;
+
+}
+
+.head::after{
+    content: "Word";
+    color: red;
+}
+
+.btn{
+    padding: 12px 8px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: blue;
+    background-color: blanchedalmond;
+    padding: 12px 8px;
+    border: none;
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.container:hover{
+    background-color: aqua;
+}
