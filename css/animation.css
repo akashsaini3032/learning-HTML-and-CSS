@@ -1,0 +1,22 @@
+.hero{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* @ use for special type of characters*/
+@keyframes slide{
+    to{
+        left: 300px;
+        top: 0px;
+    }
+
+    from{
+        left: 0px;
+        top: 0px;
+    }
+}

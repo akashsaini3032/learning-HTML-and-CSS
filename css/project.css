@@ -197,6 +197,35 @@
     
 }
 
+/* contact Page Css*/
+
+.pcontact{
+    
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+    
+
+} 
+
+.pcontact div{
+    border: 2px solid white;
+    padding: 70px;
+
+    width: 200px;
+    
+
+    
+}
+
+
+
 
 
 
