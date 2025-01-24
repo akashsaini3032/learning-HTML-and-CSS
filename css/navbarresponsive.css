@@ -15,9 +15,28 @@
     display: none;
 } 
 
+#click{
+    display: none;
+}
+#click:checked~.navbar ul{
+    display: block;
+}
+
+
 @media screen and (max-width:400px) {
     .navbar label{
         display: block;
+    }
+    .navbar ul{
+        display: none;
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        background-color: aqua;
+    }
+
+    .navbar ul li{
+        padding:20px
     }
     
 }
