@@ -1,0 +1,266 @@
+/* PAGE PAGE CSS*/
+
+/* First Banner css*/
+.pbanner {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pbanner div {
+    border: 2px solid gray;
+    padding: 70px;
+    width: 200px;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.pbanner div:hover {
+    transform: scale(1.05);
+    border-color: rgba(0, 0, 255, 1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+/*SECOND BANNER CSS*/
+
+.pteam {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pteam div {
+    border: 2px solid gray;
+    padding: 30px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    text-align: center; 
+}
+
+.pteam div:hover {
+    transform: scale(1.1);
+    border-color: rgba(0, 123, 255, 1); 
+}
+
+
+.pteam h3 {
+    font-size: 1.5em;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 15px;
+}
+
+.pteam h4 {
+    font-size: 1.2em;
+    color: rgba(119, 119, 119, 1);
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+
+
+
+/*Fourth BANNER CSS*/
+.clients {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: space-between;
+    padding-left: 80px;
+}
+
+.clients h2 {
+    font-size: 2em;
+}
+
+.clients p {
+    font-size: 1em;
+    color: gray;
+}
+
+.clients .testimonialCard {
+    background-color: rgba(211, 211, 211, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+    transition: transform 0.3s;
+}
+
+.clients .testimonialCard:hover {
+    transform: scale(1.05);
+}
+
+.clients .quoteIcon {
+    font-size: 2em;
+    color: pink;
+}
+
+.clients h4 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.clients .author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.clients .authorTitle {
+    font-size: 0.9em;
+    color: gray;
+}
+
+
+
+/*Third BANNER CSS*/
+
+.pageform{
+    background-color: rgba(128, 128, 128, 0.116);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0px;
+    padding-right: 80px;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+
+}
+
+.form1 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    
+}
+
+.form1 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: rgb(128, 128, 128);
+}
+
+.form1 input,
+.form1 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form1 input[type="submit"] {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.form1 input[type="submit"]:hover {
+    background-color: red;
+}
+
+
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.contactitem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contactitem i {
+    font-size: 24px;
+    color: rgba(0, 123, 255, 1); 
+}
+
+.contactitem div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactitem p {
+    margin: 0;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 1); 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(248, 248, 248, 1)    ;
+    font-family: Arial, sans-serif;
+    flex-wrap: wrap;
+}
+.footerColumn {
+    flex: 1;
+    margin: 0 10px;
+}
+.footerColumn h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+}
+.footerColumn p, .footerColumn a {
+    margin-bottom: 10px;
+    color: rgba(51, 51, 51, 1)    ;
+    text-decoration: none;
+}
+.footerColumn a:hover {
+    text-decoration: underline;
+}
+.footerBottom {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(232, 232, 232, 1)    ;
+    font-size: 14px;
+    color: rgba(153, 153, 153, 1)   ;
+}
+.appButtons img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+
+.paymentOptions img {
+    width: 400px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
