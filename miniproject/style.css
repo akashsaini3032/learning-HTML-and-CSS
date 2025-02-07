@@ -1,0 +1,136 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: pink;
+}
+
+
+
+.navbar .logo img {
+   max-height: 50px;
+}
+
+
+
+.navbar .menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .icons {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+#click{
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+.search-container i {
+    color: #800000;
+    margin-right: 5px;
+}
+.search-container input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+}
+.search-container .fa-search {
+    margin-left: 5px;
+}
+
+
+
+
+
+
+.trending{
+    
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1px;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+    
+
+} 
+
+
+.trending div{
+  border: 2px solid gray;
+  border: 2px solid gray;
+  padding: 2px;
+    background-color: #f0f0f0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.trending div:hover {
+    transform: scale(1.05);
+}
+
+
+.explore {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.explore div {
+    border: 2px solid gray;
+    
+    background-color: rgba(128, 128, 128, 0.079);
+    text-align: center;
+    border-radius: 30px;
+    
+}
+
+
+
+.explore img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+
+
+
+
