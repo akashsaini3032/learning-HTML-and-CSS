@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
     background-color: aqua;
     display: flex;
     justify-content: space-around;
@@ -33,7 +33,7 @@
         top: 90px;
         width: 100%;
         background-color: aqua;
-    }
+    } */
 
     .navbar ul li{
         padding:20px
