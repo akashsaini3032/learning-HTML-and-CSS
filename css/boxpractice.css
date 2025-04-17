@@ -1,4 +1,4 @@
-.akash{
+/* .akash{
     
     width: 230px;
     background-color: white;
@@ -20,4 +20,31 @@
 .ck{
     padding-left: 30px;
     padding-right: 10px; 
+} */
+
+.akash{
+    
+    width: 230px;
+    background-color: white;
+    border: 2px gray;
+    padding: 20px;
 }
+
+
+.ak{
+    margin-top: 30px;
+    font-size: 30px;
+    padding-left: 30px;
+    color: rgb(214, 120, 32);
+
+}
+.bk{
+    padding-left: 40px;
+}
+.ck{
+    padding-left: 40px;
+    padding-right: 10px; 
+}
+
+
+
