@@ -1,4 +1,4 @@
-/* .akash{
+.akash{
     background-color: cornflowerblue;
     display:flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@
 
 .akash div p{
     margin-top: -23px;
-}
+} 
 
 
- space-between,start,center,end,space-evenly,space-arround,space-between (yah sab value hai )lekin tabhi use hoga jab justifiy content hoga */
+ /* space-between,start,center,end,space-evenly,space-arround,space-between (yah sab value hai )lekin tabhi use hoga jab justifiy content hoga  */
